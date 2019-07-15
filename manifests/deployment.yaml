@@ -14,7 +14,7 @@ spec:
       spec:
         containers:
         - name: captureorder
-          image: nipacrhack.azurecr.io/captureorder # replace with your own repository
+          image: nipacrhack.azurecr.io/captureorder:ch1 # replace with your own repository
           imagePullPolicy: Always
           readinessProbe:
             httpGet:
