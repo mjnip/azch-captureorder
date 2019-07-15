@@ -38,7 +38,7 @@ stages:
         dockerfile: '**/Dockerfile'
         containerRegistry: $(dockerRegistryServiceConnection)
         tags: |
-          'latest'
+          latest
 
     - task: PublishPipelineArtifact@0
       inputs:
